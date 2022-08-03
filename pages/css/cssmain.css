@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cssmain.html</title>
+        <style type="text/css">
+            h2{
+                color:rgb(17, 240, 9);
+                text-decoration: underline;
+           
+            }
+body{background-color: rgb(212, 252, 187);
+    color:rgb(17, 240, 9);
+    margin: 10px;
+    padding: 5px;
+
+}
+.clearfix {
+    overflow:auto;
+}
+nav{
+    color:purple
+}
+img{
+    max-width: 1460px;
+}
+p{
+    font-style:oblique
+}
+#golf{
+    color:blue
+}
+.lifting{
+    color:crimson
+}
+#div1{
+    background-color: aquamarine;
+    position: absolute;
+}
+#div2{
+    background-color: black;
+    position: static;
+    max-width: 1460px;
+}
+#div3{
+    background-color: darkcyan;
+}
+#div4{
+    background-color: greenyellow;
+}
+#div1, #div2, #div3, #div4 {
+    border:solid
+}
+form{
+    padding:20px;
+    background-color: white;
+    font-style: italic;
+    border-style: solid;
+    font-weight: 500px;
+}
+input [type=button] :hover {
+    border: solid;
+color:black;
+background-color:forestgreen;
+padding: 10px;
+}
+        </style>
+    </head>
